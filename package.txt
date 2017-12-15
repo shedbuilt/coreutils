@@ -1,0 +1,5 @@
+NAME=coreutils
+VERSION=8.27
+REVISION=1
+SRC=http://ftp.gnu.org/gnu/coreutils/coreutils-8.27.tar.xz
+SRCMD5=502795792c212932365e077946d353ae
