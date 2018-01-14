@@ -1,6 +1,7 @@
 #!/bin/bash
 case "$SHED_BUILDMODE" in
     toolchain)
+        FORCE_UNSAFE_CONFIGURE=1 \
         ./configure --prefix=/tools \
                     --enable-install-program=hostname || return 1
         make -j $SHED_NUMJOBS || return 1
