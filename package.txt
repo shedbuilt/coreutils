@@ -1,7 +1,7 @@
 NAME=coreutils
-VERSION=8.29
-REVISION=1
-SRC=http://ftp.gnu.org/gnu/coreutils/coreutils-8.29.tar.xz
-SRCMD5=960cfe75a42c9907c71439f8eb436303
+VERSION=8.30
+REVISION=2
+SRC=http://ftp.gnu.org/gnu/coreutils/coreutils-8.30.tar.xz
+SRCMD5=ab06d68949758971fe744db66b572816
 OPTIONS=toolchain|bootstrap|release
 DEFAULTS=release

@@ -7,7 +7,7 @@ if [ -n "${SHED_PKG_LOCAL_OPTIONS[toolchain]}" ]; then
     SHED_PKG_LOCAL_PROGRAM_INSTALL_OPTIONS='--enable-install-program=hostname'
 fi
 # Patch
-patch -Np1 -i "${SHED_PKG_PATCH_DIR}/coreutils-8.29-i18n-1.patch" &&
+patch -Np1 -i "${SHED_PKG_PATCH_DIR}/coreutils-8.30-i18n-1.patch" &&
 autoreconf -fiv &&
 # Configure
 FORCE_UNSAFE_CONFIGURE=1 \
